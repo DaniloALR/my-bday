@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bday</title>
+    <link rel="stylesheet" href="style/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="evento" data-aos="fade-in" data-aos-duration="2000" data-aos-easing="ease-in-out">
+        <div class="container">
+            <div class="evento__titulo">
+                <h1 class="evento__titulo__titulo">My Bday</h1>
+                <p class="evento__titulo__texto">Faltam exatamente <span id="contador"></span> para meu aniversário!</p>
+            </div>
+        </div>
+    </header>
+    <main class="endereco">
+        <div class="container">
+            <h2 class="endereco__titulo">
+                Endereço
+            </h2>
+            <p class="endereco__rua">
+                Rua Javascript 123, Bairro do C - SP
+            </p>
+            <div class="endereco__confirma-presenca">
+                <button class="endereco__confirma-presenca__confirmar">Confirmar presença</button>
+                <button class="endereco__confirma-presenca__negar">Negar presença</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

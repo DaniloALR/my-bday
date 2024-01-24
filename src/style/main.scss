@@ -1,0 +1,27 @@
+@use 'header';
+@use 'endereco';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+}
+
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+
+    @media(max-width:767px){
+        max-width: 80%;
+    }
+    @media(max-width: 1024px){
+        max-width: 70%;
+    }
+}
